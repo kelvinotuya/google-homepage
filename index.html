@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Google</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/styl.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <!-- <div id="wrapper"> -->
         <!--header section  -->
         <header>
           <nav>
@@ -24,15 +23,14 @@
                 <img alt="Google" height="92" src="images/googlelogo.png" style="padding-top:109px" width="272">
               </div>
 
-          <!-- input for searchbar -->
-              <div>
-                <input type="text" name="searchbar" title="searchbar" required>
-              </div>
-
-              <div class="row">
-                <input type="submit" value="Search Google" class="buttons">&nbsp;
-                <input type="submit" value="I'm feeling lucky" class="buttons">
-              </div>
+              <form>
+                <div>
+                  <input type="search" id="mySearch" name="q"> 
+                    <span class="voice-search" title="Search by voice"><img src="images/google_mic.png">
+                  <br>
+                  <button>Search Google</button>&nbsp;<button>I'm feeling lucky</button>
+                </div>
+              </form>
             <p>Google offered in:</p> <a href="#">Hausa</a>  <a href="#">Igbo</a>  <a href="#">Ede</a>  <a href="#">Yoruba</a>  <a href="#">Nigerian</a>  <a href="#">Pidgin</a>
         </main>
 
