@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+html, article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+* {
+   text-decoration: none;
+  
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: #222;
+  text-decoration: none;
+}
+
+header {
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+header {
+  padding: 0 30px;
+}
+
+nav {
+  float: right;
+}
+
+nav img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+main {
+  margin: 0 auto;
+  width: 586px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+main * {
+  margin-bottom: 15px;
+}
+
+main input {
+  width: 631px;
+  height: 43px;
+  color: #222;
+  border: 1px solid #e1e1e1;
+  border-bottom: 1px solid #c7c7c6;
+  box-shadow: 0 2px 5px #e2e2e2;
+}
+
+form div {
+  position: relative;
+}
+
+form div span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+form div span img {
+  width: 22px;
+  height: 23px;
+  display: block;
+}
+
+main p {
+  display: inline-block;
+  text-align: -webkit-center;
+}
+
+main p a {
+  color: #1a0dab;
+  margin-right: 5px;
+}
+
+form button {
+  font-weight: bold;
+  margin-right: 5px;
+  height: 36px;
+  line-height: 27px;
+  text-align: center;
+}
+
+form button, footer, footer * {
+  background: #fafafa;
+  color: rgba(0,0,0,.54);
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer section {
+  border-top: 1px solid #e4e4e4;
+  padding: 15px 30px;
+}
+
+footer section:first-child p {
+  font-size: 15px;
+}
+
+footer section:last-child li:not(:first-child) {
+  margin-left: 30px;
+}
+
+footer section:last-child ul:last-child {
+  padding: 15px 30px 0;
+}
+
+footer section:last-child ul:last-child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#locator {
+  position: absolute;
+  visibility: visible;
+  left: 20px;
+  top: 5px;
+  height: 100px;
+  width: 600px;
+  z-index: 200;
+}
